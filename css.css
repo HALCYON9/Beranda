@@ -162,6 +162,7 @@ html {
 }
 
 section.booking-menu {
+  display: flex;
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -172,9 +173,10 @@ section.booking-menu {
 }
 
 .booking-menu-box {
+
   position: relative;
   width: 420px;
-  height: 450;
+  height: 450px;
   background: transparent;
   backdrop-filter: blur(15px);
   border: 2px solid #1d2b3a;
